@@ -1,6 +1,6 @@
 recipe_list = {
 	"mapo_tofu" : {
-		"ingredients" : []
+		"ingredients" : [],
 		"tags" : [
 			"tofu",
 			"beef",
