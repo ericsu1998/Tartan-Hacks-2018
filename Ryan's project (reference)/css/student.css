@@ -1,0 +1,41 @@
+h3 {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+h4 {
+	margin-top: 25px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.2em;
+}
+.profile {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.portrait {
+	width: 90%;
+	height: 90%;
+}
+
+.team {
+	margin-top: 20px;
+}
+
+.person {	
+	float: none;
+	margin: auto;
+	display: inline-block;
+}
+
+img {
+	border: 2px solid lightgrey;
+}
+
+
+.person a:link {color:black;}      /* unvisited link */
+.person a:visited {color:black;}  /* visited link */
+.person a:active {color:lightgrey;}  /* selected link */

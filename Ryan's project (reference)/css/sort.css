@@ -1,0 +1,31 @@
+.img-circle {
+	border-radius: 10%;
+	border: 2px solid lightgrey;
+}
+
+
+
+.project-sort h3{
+	/*display: inline-block;*/
+	float: left;
+	margin-left: 20px;
+}
+
+.sort {
+	float: right;
+	padding: 5px;
+	border: solid black 1px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+
+.project-icon {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.project-icon a {
+	color: #4a76d5;
+}

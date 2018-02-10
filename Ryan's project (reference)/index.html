@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Showcase</title>
+	<meta content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+	<div class="sidenav" id="menu-sidenav">
+		      <ul class="nav navbar-nav">
+		      	<li class="navbar-text nav-title-text" onclick="closeNav()" id="nav-cmu">Carnegie Mellon University</br>Information Systems</li>
+		        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+		        <li><a href="all.html">All Projects</a></li>
+		      </ul>
+		      
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects by Semester <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="s17.html">Spring 17</a></li>
+		            <li><a href="s16.html">Spring 16</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+	</div><!-- /.navbar-collapse -->
+
+<div id="main">
+	<!-- Headder -->
+		<div class="header-main">
+			<form class=" header-search" action="./search.html" onsubmit="return validateForm()" name="seachbar">
+		        <div class="form-group">
+		          <input type="text" class="form-control" placeholder="Search" name="search">
+		        </div>
+		    </form>
+
+			<button type="button" class="navbar-toggle collapsed" onclick="openNav()">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		</div>
+
+
+	<!-- End Header-->
+
+<h1>Student Projects</h1>
+
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="4000" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="active item"> <a href = "s16/carnivalCommittee.html">
+                <img src="images/carnivalCommittee.png" alt="First Slide">
+                <div class="carousel-caption">
+                  <h3> Spring Carnival Committee </h3>
+                  <br> <h4> Team Members </h4>
+                  <img src = "images/circle0.png" alt = "team">
+                  <img src = "images/circle1.png" alt = "team">
+                  <img src = "images/circle2.png" alt = "team">
+                </div>
+            </a></div>
+             <div class="item"> <a href = "s17/sanfranciscoDOSW.html">
+                <img src="images/sfdosw.png" alt="Second Slide">
+                <div class="carousel-caption">
+                  <h3> Project S.F.D.O.S.W </h3>
+                  <br> <h4> Team Members </h4>
+                  <img src = "images/connor-hanley.jpg" alt = "team" class = "img-circle">
+                  <img src = "images/amber-hu.png" alt = "team" class = "img-circle">
+                  <img src = "images/helen-kim.png" alt = "team" class = "img-circle">
+                  <img src= "images/sina-siddiqi.png" alt = "team" class = "img-circle">
+                </div>
+            </a></div>
+            <div class="item"> <a href = "s17/phipps.html">
+                <img src="images/phipps2.png" alt="Third Slide">
+                <div class="carousel-caption">
+                  <h3> Phipps Conservatory </h3>
+                  <br> <h4> Team Members </h4>
+                  <img src = "images/circle1.png" alt = "team">
+                  <img src = "images/circle2.png" alt = "team">
+                  <img src = "images/circle0.png" alt = "team">
+                </div>
+            </a></div>
+            <div class="item"> <a href = "s16/chuck.html">
+                <img src="images/chuck.png" alt="Fourth Slide">
+                <div class="carousel-caption">
+                  <h3> Project C.H.U.C.K. </h3>
+                  <br> <h4> Team Members </h4>
+                  <img src = "images/circle2.png" alt = "team">
+                  <img src = "images/circle0.png" alt = "team">
+                  <img src = "images/circle1.png" alt = "team">
+                </div>
+            </a></div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+<p> In the Software Development Project course (67353), small student teams collaborate with community-based organizations to develop useful information system solutions to meet real management needs. Each project team proposes, defines, designs and implements a working information system or application with the project client. Teams act as consultants working 'with' and not 'for' their project clients. At the completion of the project, each team must provide a sustainable solution that fits the client's objectives, organization constraints and capabilities. </p>
+	
+	<!-- <div class="row"> -->
+		<a href="all.html" class="all-proj">All Projects</a>
+	<!-- </div> -->
+
+	<!-- <div class="row"> -->
+		<a href="s17.html" class="col-md-6 sem-proj">Spring 17</a>
+		<a href="s16.html" class="col-md-6 sem-proj">Spring 16</a>
+<!-- 	</div> -->
+
+
+
+</div>
+</body>
+</html>

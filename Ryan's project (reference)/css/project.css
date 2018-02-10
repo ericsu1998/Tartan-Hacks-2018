@@ -1,0 +1,45 @@
+.text-things {
+	padding: 0px 20px;
+}
+
+h2 {
+	text-align: center;
+	margin: 10px auto;
+
+}
+
+details {
+	margin: 20px 5px;
+}
+
+img {
+	border: 2px solid lightgrey;
+	border-radius: 10%;
+}
+
+summary {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.sub-content {
+	font-size: 1.1em;
+}
+
+.project-team {
+	padding-left: 0px;
+}
+
+.person {
+	display: inline-block;
+	float: left;
+	margin: auto;
+	padding-top: 0px;
+	margin-top: 0px;
+/*	border: 1px dotted black;
+*/}
+
+.person p {
+	font-size: 0.7em;
+	text-align: center;
+}
