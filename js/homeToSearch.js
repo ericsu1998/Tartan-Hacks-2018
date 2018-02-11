@@ -54,3 +54,30 @@ function LoadSearchPage(){
 	
 }
 LoadSearchPage();
+	
+	for(var i = 0; i < foundRecipes.length; i++) {
+		AddRecipe();
+	}
+}
+
+function AddRecipe() {
+ 	var wrapper = document.createElement("div");
+ 	wrapper.className = "col-xs-4 project-icon";
+ 	wrapper.id = "card" + index;
+
+ 	
+
+ 	// var panel = document.createElement("a");
+ 	// var pic = document.createElement("img");
+ 	// pic.className = "img-circle";
+ 	// panel.appendChild(pic);
+
+ 	var desc = document.createElement("p");
+ 	desc.innerHTML = "Project Name";
+
+ 	panel.appendChild(desc);
+
+ 	wrapper.appendChild(panel);
+ 	rownode.appendChild(wrapper);
+
+}
