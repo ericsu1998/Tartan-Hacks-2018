@@ -9,3 +9,8 @@ recipe_list = {
 		]
 	}
 }
+
+//Recipe format
+//1. Dish name
+//2. ingredients
+//3. (opt) picture
