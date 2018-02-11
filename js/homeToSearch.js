@@ -28,5 +28,29 @@ function LoadSearchPage(){
 		}
 	}
 
+	var recipeContainer = document.getElementById("results");
+
+
+	for (var i = 0; i < foundRecipes.length; i++){
+		//Display recipe on page
+		recipe = foundRecipes[i];
+		picture = recipe_list[recipe].picture;
+		var temp = document.createElement("div");
+		var recipeLink = document.createElement("a");
+		var recipeName = document.createElement("h3");
+		var recipePic = document.createElement("img");
+		recipeLink.href = "recipe.html" + "?recipe=" + recipe
+		recipePic.src = picture;
+		recipeName.innerHTML = recipe;
+		recipeContainer.appendChild(temp);
+		temp.appendChild(recipeLink);
+		recipeLink.appendChild(recipeName);
+		recipeLink.appendChild(recipePic);
+
+		//Create recipe html
+
+	}
+
 	
 }
+LoadSearchPage();
